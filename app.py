@@ -5,5 +5,5 @@ def luas_segitiga():
     t = int (input("Masukkan tinggi segtiga :"))
     luas = a * t / 2
     print("Luas Segitiga adalah : ", luas)
-
+    
 luas_segitiga()
