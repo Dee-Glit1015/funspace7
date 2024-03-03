@@ -8,7 +8,7 @@ def luas_segitiga():
     
 luas_segitiga()
 
-#Hitung LUas Persegi Panjang
+#Hitung Luas Persegi Panjang
 def luas_persegi_panjang():
     p = int(input("Masukakn Panjan Persegi"))
     l = int(input("Masukan Lebar Persegi"))
