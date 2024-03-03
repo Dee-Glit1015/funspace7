@@ -10,8 +10,17 @@ luas_segitiga()
 
 #Hitung Luas Persegi Panjang
 def luas_persegi_panjang():
-    p = int(input("Masukakn Panjan Persegi"))
-    l = int(input("Masukan Lebar Persegi"))
+    p = int(input("Masukakn Panjan Persegi : "))
+    l = int(input("Masukan Lebar Persegi : "))
     luas = p * l
     print ("Luas Persegi adalah : ", luas)
+
 luas_persegi_panjang()
+
+#Hitung Luas Lingkaran
+def luas_lingkaran () :
+    r = int (input ("Masukkan Jari- Jari lingkaran : "))
+    luas = 3.14 * r *r
+    print ("Luas Lingkaran adalah : " , luas )
+
+luas_lingkaran()
